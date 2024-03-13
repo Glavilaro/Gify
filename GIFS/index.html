@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gif Search App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <h1>GIFS</h1>
+
+  <div class="box">
+    <div class="search-container">
+      <input type="text" id="search-box" value="laugh" />
+      <button id="submit-btn">Buscar</button>
+
+    </div>
+    <div class="loader"></div>
+    <div class="wrapper"></div>
+  </div>
+  <div class="next-previus">
+    <button onclick="history.go(-1)" class="previus">previus-page</button>
+    <button onclick="history.forward()" class="next">next-page</button>
+  </div>
+  <footer>
+    <div class="social-icons">
+      <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://es-la.facebook.com/"><i class="bi bi-facebook" target="_blank"></i></a>
+      <a href="https://www.twitch.tv/" target="_blank"><i class="bi bi-twitch"></i></a>
+    </div>
+    <p>&copy; 2024 Gifs, Inc.</p>
+  </footer>
+  <script src="api-key.js"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
